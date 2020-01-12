@@ -1,0 +1,104 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    padding-top: 60px;
+}
+
+body#profile img#profile-image {
+    -webKit-box-shadow: 3px 13px 31px 0px rgba(47,45,107,1);
+-moz-box-shadow: 3px 13px 31px 0px rgba(47,45,107,1);
+box-shadow: 3px 13px 31px 0px rgba(47,45,107,1);
+}
+
+.huge{
+    font-size: 30px;
+}
+
+.tag-boxes .panel-primary{
+    color:white;
+    border: 1px solid #2FA4E7;
+}
+
+
+.tag-boxes .panel-primary a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.tag-boxes .panel-red{
+    color:white;
+    background-color: red;
+}
+.tag-boxes .panel-red a{
+    color: red;
+}
+
+.tag-boxes .panel-red a:hover{
+    color: blue;
+    font-weight: bold;
+}
+.tag-boxes .panel-yellow{
+    color:white;
+    background-color: peru;
+}
+.tag-boxes .panel-yellow a{
+    color: peru;
+}
+
+.tag-boxes .panel-yellow a:hover{
+    color: blue;
+    font-weight: bold;
+}
+.tag-boxes .panel-green{
+    color:white;
+    background-color:green;
+}
+.tag-boxes .panel-green a{
+    color: green;
+}
+
+.tag-boxes .panel-green a:hover{
+    color: blue;
+    font-weight: bold;
+}
+#wrapper{
+    min-height:100%;
+    position: relative;
+}
+
+.body-section{
+    padding-bottom: 70px;
+}
+nav#pagination{
+    text-align:center;
+}
+
+.pagination > li > a{
+    color: #C63;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    background:#2FA4E7;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-size:12px; 
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
